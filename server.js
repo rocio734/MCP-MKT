@@ -32,7 +32,7 @@ const server = new McpServer({ name: "hubspot-mcp", version: "1.0.0" });
 
 // tools (puedes añadir más)
 server.registerTool(
-  "hubspot.contacts.search",
+  "hubspot_contacts_search",
   {
     title: "Buscar contactos",
     description: "Busca contactos por email/nombre",
@@ -57,7 +57,7 @@ server.registerTool(
 );
 
 server.registerTool(
-  "hubspot.deals.search",
+  "hubspot_deals_search",
   {
     title: "Buscar deals",
     description: "Filtra deals por etapa",
